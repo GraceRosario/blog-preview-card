@@ -1,25 +1,52 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    background-color: #F4D04E;
+  background-color: #f4d04e;
 }
 
 body {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
 }
 
 .blog-preview-card {
-    background-color: #ffffff;
-    max-width: 384px;
-    width: 100%;
-    margin: auto;
+  background-color: #ffffff;
+  max-width: 384px;
+  width: 100%;
+  margin: auto;
+  max-height: 522px;
+  font-family: "Figtree", sans-serif;
+  height: 100%;
+  border-radius: 20px;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
 }
+
+img {
+    max-width: 336px;
+    max-height: 200px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.category {
+    background-color: #F4D04E;
+    font-size: 0.875rem;
+    display: inline;
+    padding: 0.25rem 0.75rem;
+    font-weight: bolder;
+}
+
+
