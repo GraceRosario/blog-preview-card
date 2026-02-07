@@ -9,3 +9,9 @@
 html {
     background-color: #F4D04E;
 }
+
+.blog-preview-card {
+    background-color: #ffffff;
+    max-width: 384px;
+    width: 100%;
+}
