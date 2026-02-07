@@ -10,8 +10,16 @@ html {
     background-color: #F4D04E;
 }
 
+body {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .blog-preview-card {
     background-color: #ffffff;
     max-width: 384px;
     width: 100%;
+    margin: auto;
 }
