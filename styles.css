@@ -32,10 +32,10 @@ body {
   gap: 1.5rem;
   flex-direction: column;
   border: 1px solid #111111;
-  box-shadow: 10px 10px 0 #111111;
+  box-shadow: 0.625rem 0.625rem 0 #111111;
 }
 
-img {
+.blog-img {
   max-width: 336px;
   max-height: 200px;
   width: 100%;
@@ -53,6 +53,7 @@ img {
   height: 100%;
   padding: 0.25rem 0.75rem;
   font-weight: bolder;
+  border-radius: 0.25rem;
 }
 
 .date {
@@ -82,4 +83,15 @@ img {
 .user-name {
   font-size: 0.875rem;
   font-weight: 800;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.user-img {
+  max-width: 32px;
+  width: 100%;
 }
