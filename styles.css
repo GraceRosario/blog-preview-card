@@ -23,9 +23,7 @@ body {
   max-width: 384px;
   width: 100%;
   margin: auto;
-  max-height: 522px;
   font-family: "Figtree", sans-serif;
-  height: 100%;
   border-radius: 20px;
   padding: 1.5rem;
   display: flex;
@@ -54,6 +52,7 @@ body {
   padding: 0.25rem 0.75rem;
   font-weight: bolder;
   border-radius: 0.25rem;
+  text-align: center;
 }
 
 .date {
@@ -99,4 +98,24 @@ body {
 .user-img {
   max-width: 32px;
   width: 100%;
+}
+
+@media (max-width: 375.99px) {
+  .blog-preview-card {
+    max-width: 327px;
+    width: 100%;
+  }
+
+  .category, .date {
+    font-size: 0.75rem;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .description, .user-name {
+    font-size: 0.875rem;
+  }
+
 }
