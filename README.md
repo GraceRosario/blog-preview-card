@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/GraceRosario/blog-preview-card)
-- Live Site URL: [Add live site URL here](https://gracerosario.github.io/blog-preview-card/)
+- Solution URL: [solution URL](https://github.com/GraceRosario/blog-preview-card)
+- Live Site URL: [live site URL](https://gracerosario.github.io/blog-preview-card/)
 
 ## My process
 
